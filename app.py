@@ -23,7 +23,7 @@ df=pd.read_csv('cleaned_data.csv')
 col1,col2,col3,col4=st.columns(4,border=True)
 
 with col1:
-    person_age=st.slider('Age: ',min_value=20,max_value=100)
+    person_age = st.slider('Age: ', min_value=20, max_value=100, value=30)
 
     person_income=st.slider('income: ',min_value=8000,max_value=900000)
 
