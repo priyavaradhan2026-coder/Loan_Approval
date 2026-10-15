@@ -8,7 +8,7 @@ st.set_page_config(page_title='Loan Approval Classification',
 
 #setting up the side bar:
 with st.sidebar:
-    st.title('Loan Amount Classification')
+    st.title('Loan Approval Classification')
     st.image('logo.png')
 
 #load the model:
